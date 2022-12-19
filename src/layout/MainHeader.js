@@ -5,9 +5,11 @@ import Header from "./header";
 const MainHeader = () => {
   return (
     <>
-      <Header />
+      <div className="container">
+        <Header />
 
-      <Outlet />
+        <Outlet />
+      </div>
     </>
   );
 };

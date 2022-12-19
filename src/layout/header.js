@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
-      <nav>
+      <nav className="d-flex justify-content-between py-5">
         <div className="">
-          <a href="#">Logo</a>
+          <Link to="/">Logo</Link>
         </div>
         <ul>
           <li>
